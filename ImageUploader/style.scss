@@ -1,0 +1,16 @@
+#ic:hover{
+  cursor: pointer;
+}
+.close{
+  position: relative;
+  bottom: 10px;
+  display:flex;
+  justify-content:flex-end!important;
+}
+.previewContainer{
+  border:1px solid  #dddfe2;
+}
+.previewContainer  img{
+width:90px;
+padding:8px;
+}

@@ -1,0 +1,90 @@
+
+.rating {
+  margin-top: 0.4rem;
+display: -webkit-box;
+display: FLEX;
+    align-items: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  border-radius: 3px;
+  margin-right: 0.2rem;
+   background-color: rgba(50, 2, 90, 0.95);
+   color:white;
+}
+#question{
+  display: flex;
+  justify-content: center!important;
+  margin-top: 2rem;
+}
+#question span{
+font-size:13pt;
+}
+textarea{
+  width: 94%; outline: none; border:none; margin-top:1rem; font-size: 18px;  resize: none;min-height: 10rem;
+}
+#mStar{
+  margin-right: 0.2rem;
+   background-color: rgba(50, 2, 90, 0.95);
+   color:white;
+   border-radius: 5px;
+}
+.tags {
+
+//  display: flex;
+}
+.tags p{
+  display: inline-table;
+    font-size: 10pt;
+    background: rgba(50, 2, 90, 0.95);
+    border-radius: 5px;
+    margin-right: 4px;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+}
+.overall p{
+  display: inline-block;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 12px;
+line-height: 1.5em;
+color: #999;
+background: transparent;
+box-shadow: none;
+white-space: nowrap;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+padding: 0 6px;
+margin-left: 0.3rem;
+font-size: 9pt;
+}
+// .rating > span::after{
+//   content: "\2605";
+//   color:red;
+// }
+// .rating > span:hover,
+// .rating > span:hover ~ span {
+//
+//   color: transparent;
+// }
+.reviews{
+      margin-left: 0.4rem;
+}
+.reviews p{
+  color: #666;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.dropZone{
+  background-image: url("uploade.png") ;
+  width: 24px;
+  height: 24px;
+
+}
+#uploadImg{
+  position: relative;
+  top:8rem;
+}
